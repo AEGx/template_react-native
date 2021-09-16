@@ -1,0 +1,1 @@
+# My_template_react-native-typescript_jest
