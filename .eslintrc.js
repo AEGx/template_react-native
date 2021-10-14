@@ -17,20 +17,11 @@ module.exports = {
         ecmaVersion: 12,
         sourceType: 'module',
     },
-    plugins: ['react', '@typescript-eslint', 'react-hooks'],
+    plugins: ['react', '@typescript-eslint'],
     rules: {
         indent: ['error', 4],
         'linebreak-style': ['error', 'unix'],
         quotes: ['error', 'single'],
         semi: ['error', 'always'],
-        'react/no-deprecated': ['error'],
-        '@typescript-eslint/no-explicit-any': 'off',
-        'react-hooks/rules-of-hooks': 'error',
-        'react-hooks/exhaustive-deps': [
-            'warn',
-            {
-                additionalHooks: '(useRecoilCallback|useRecoilTransaction_UNSTABLE)',
-            },
-        ],
     },
 };
