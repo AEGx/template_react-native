@@ -1,6 +1,8 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+. "$(dirname $0)/_/husky.sh"
 
+#? npx husky add .husky/pre-commit "npx --no-install lint-staged"
+#? for added
 yarn validate-branch-name
 yarn eslint --ext .tsx --ext .ts src/
 npx --no-install lint-staged
