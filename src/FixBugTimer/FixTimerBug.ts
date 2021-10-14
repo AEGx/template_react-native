@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Platform, InteractionManager } from 'react-native';
 const gbl: any = global;
 const _setTimeout: any = gbl.setTimeout;
