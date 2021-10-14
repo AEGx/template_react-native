@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,yarn,visualstudio,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,yarn,visualstudio,visualstudiocode
 
+coverage/
+
 ### macOS ###
 # General
 .DS_Store
